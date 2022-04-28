@@ -13,9 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_AddMinion", "04_AddMinio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_RemoveVillain", "06_RemoveVillain\06_RemoveVillain.csproj", "{8BBC5D1C-3968-4DD8-84DC-98EAB4C97ADA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_PrintAllMinionNames", "07_PrintAllMinionNames\07_PrintAllMinionNames.csproj", "{CBDA4ECF-ADD7-4159-A555-31DDFB63A349}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_PrintAllMinionNames", "07_PrintAllMinionNames\07_PrintAllMinionNames.csproj", "{CBDA4ECF-ADD7-4159-A555-31DDFB63A349}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_ChangeTownNamesCasing", "05_ChangeTownNamesCasing\05_ChangeTownNamesCasing.csproj", "{4ED41575-3FA7-40EB-ABEE-03804F873620}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_ChangeTownNamesCasing", "05_ChangeTownNamesCasing\05_ChangeTownNamesCasing.csproj", "{4ED41575-3FA7-40EB-ABEE-03804F873620}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_IncreaseMinionAge", "08_IncreaseMinionAge\08_IncreaseMinionAge.csproj", "{FA137879-1E84-44B4-A2EB-397BA91DF52F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_IncreaseAgeStoredProcedure", "09_IncreaseAgeStoredProcedure\09_IncreaseAgeStoredProcedure.csproj", "{F16A65BA-8F95-4320-8BA6-A590E5ACC7D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{4ED41575-3FA7-40EB-ABEE-03804F873620}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4ED41575-3FA7-40EB-ABEE-03804F873620}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4ED41575-3FA7-40EB-ABEE-03804F873620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA137879-1E84-44B4-A2EB-397BA91DF52F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA137879-1E84-44B4-A2EB-397BA91DF52F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA137879-1E84-44B4-A2EB-397BA91DF52F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA137879-1E84-44B4-A2EB-397BA91DF52F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F16A65BA-8F95-4320-8BA6-A590E5ACC7D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F16A65BA-8F95-4320-8BA6-A590E5ACC7D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F16A65BA-8F95-4320-8BA6-A590E5ACC7D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F16A65BA-8F95-4320-8BA6-A590E5ACC7D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
