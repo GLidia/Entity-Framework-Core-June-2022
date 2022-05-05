@@ -23,7 +23,7 @@
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=.//SqlExpress;Database=StudentSystem;Integrated Security=True");
+                optionsBuilder.UseSqlServer("Server=.\\SqlExpress;Database=StudentSystem;Integrated Security=True");
             }
 
             base.OnConfiguring(optionsBuilder);
